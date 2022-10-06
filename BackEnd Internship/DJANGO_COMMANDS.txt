@@ -1,0 +1,38 @@
+Commands:
+pip install django
+django-admin startproject student
+cd student
+python manage.py runserver
+
+ctrl+c - To Stop the running server
+python manage.py startapp calc
+
+
+
+Steps:
+
+Create folder
+Open vs code
+Open Terminal
+pip install django - Only first time for installing django on your PC
+django-admin startproject projectName
+cd projectName
+python manage.py runserver
+ctrl + c - To stop server
+
+Next create a new app
+python manage.py startapp calc
+
+Change in settings.py,
+under installed_apps add your new appName
+
+created a file called urls.py in our calc folder
+inside that file we called views
+we created a function called home in views
+
+we changed the urls.py of our project
+and called urls.py of our calc
+
+TO CREATE A SUPERSUSER IN DJANGO 
+python manage.py createsuperuser
+
